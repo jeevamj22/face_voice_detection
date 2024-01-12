@@ -1,0 +1,6 @@
+opencv-python
+numpy
+sounddevice
+librosa
+keras
+streamlit
