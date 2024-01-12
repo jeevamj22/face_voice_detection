@@ -1,6 +1,6 @@
 streamlit
 streamlit_option_menu
-opencv-python
+opencv-python==4.5.3.56
 numpy
 sounddevice
 librosa
