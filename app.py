@@ -2,14 +2,15 @@
 # coding: utf-8
 
 # In[ ]:
-
+import streamlit as st
+from streamlit_option_menu import option_menu
 
 import cv2
 import numpy as np
 import sounddevice as sd
 import librosa
 from keras.models import load_model
-import streamlit as st
+
 
 # Load the pre-trained models
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
